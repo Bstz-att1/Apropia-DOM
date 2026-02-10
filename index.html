@@ -4,19 +4,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CIMI Game Engine</title>
+    <meta name="description" content="CIMI Game Engine - Build amazing games with our powerful and easy-to-use game engine.">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <h1>Hola CIMI</h1>
-    <br>
-    <h2>Escribe un mensaje</h2>
-    <br>
-    <textarea name="text" id="text"></textarea>
-    <br>
-    <button id="btn">Enviar</button>
-    <div id="mensajes"></div>
+    <header>
+        <nav>
+            <div class="logo">CIMI</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to CIMI Game Engine</h1>
+        <p>Empower your creativity with our cutting-edge game development tools. Build stunning games for any platform with ease.</p>
+        <a href="#about" class="cta-button">Learn More</a>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About CIMI Game Engine</h2>
+            <p>CIMI Game Engine is a revolutionary platform designed for game developers of all skill levels. Founded in 2020, our mission is to democratize game development by providing powerful, intuitive tools that bring your ideas to life.</p>
+            <p>Our engine supports multiple platforms including PC, mobile, consoles, and VR. With a focus on performance, scalability, and user experience, CIMI enables you to create games that captivate audiences worldwide.</p>
+            <div class="stats">
+                <div class="stat">
+                    <h3>1000+</h3>
+                    <p>Games Created</p>
+                </div>
+                <div class="stat">
+                    <h3>50k+</h3>
+                    <p>Active Developers</p>
+                </div>
+                <div class="stat">
+                    <h3>10</h3>
+                    <p>Platforms Supported</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>Visual Scripting</h3>
+                    <p>Create complex game logic without writing code. Our node-based visual scripting system makes programming accessible to everyone.</p>
+                </div>
+                <div class="feature">
+                    <h3>Real-time Rendering</h3>
+                    <p>Experience stunning graphics with our advanced rendering engine. Support for PBR materials, dynamic lighting, and post-processing effects.</p>
+                </div>
+                <div class="feature">
+                    <h3>Multi-platform Publishing</h3>
+                    <p>Deploy your games to PC, mobile, consoles, and web with a single click. Our cross-platform tools handle all the heavy lifting.</p>
+                </div>
+                <div class="feature">
+                    <h3>Asset Store</h3>
+                    <p>Access thousands of high-quality assets, models, textures, and sound effects. Speed up development with our integrated marketplace.</p>
+                </div>
+                <div class="feature">
+                    <h3>AI Integration</h3>
+                    <p>Incorporate advanced AI behaviors into your games. From pathfinding to procedural generation, our AI tools cover it all.</p>
+                </div>
+                <div class="feature">
+                    <h3>Community Support</h3>
+                    <p>Join a thriving community of developers. Get help, share your work, and collaborate on projects with fellow creators.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Featured Games</h2>
+            <div class="portfolio-grid">
+                <div class="project">
+                    <h3>Adventure Quest</h3>
+                    <p>An epic RPG adventure with stunning visuals and immersive storytelling. Built entirely with CIMI Engine.</p>
+                    <span class="platform">PC, Mobile</span>
+                </div>
+                <div class="project">
+                    <h3>Racing Thunder</h3>
+                    <p>High-speed racing game with realistic physics and multiplayer support. Features dynamic weather and day/night cycles.</p>
+                    <span class="platform">PC, Console</span>
+                </div>
+                <div class="project">
+                    <h3>Puzzle Master</h3>
+                    <p>Mind-bending puzzle game with procedurally generated levels. Challenge your brain with unique mechanics.</p>
+                    <span class="platform">Mobile, Web</span>
+                </div>
+                <div class="project">
+                    <h3>Space Explorer</h3>
+                    <p>Explore vast galaxies in this space simulation game. Features realistic orbital mechanics and alien worlds.</p>
+                    <span class="platform">PC, VR</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <h2>Contact Us</h2>
+                <p>Have questions about CIMI Game Engine? Want to share your game or get support? We'd love to hear from you!</p>
+                <form id="form">
+                    <label for="text">Your Message</label>
+                    <textarea name="text" id="text" placeholder="Tell us about your project or ask a question..."></textarea>
+                    <button id="btn" type="submit">Send Message</button>
+                </form>
+                <div id="mensajes"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 CIMI Game Engine. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">Discord</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+    </footer>
+
     <script src="app.js"></script>
 </body>
 </html>
