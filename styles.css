@@ -232,7 +232,8 @@ h3 {
 .contact-wrapper h2 {
     color: #fff;
     text-align: center;
-    margin-bottom: 3rem;
+    max-width: 600px;
+    margin: 0 auto 3rem;
 }
 
 .contact-wrapper p {
