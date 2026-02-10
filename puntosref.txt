@@ -1,0 +1,14 @@
+• ¿Qué elemento del DOM estás seleccionando?
+- Seleccionando el textarea con id 'text', el div con id 'mensajes', y el botón con id 'btn'.
+
+• ¿Qué evento provoca el cambio en la página?
+- El evento 'click' en el botón.
+
+• ¿Qué nuevo elemento se crea?
+- Un elemento <p> (párrafo) es creado en cada ocasion que se ingresa informacion en la seccion de contacto.
+
+• ¿Dónde se inserta ese elemento dentro del DOM?
+- Se inserta dentro del div con id 'mensajes', usando appendChild y se ve reflejado mediante el sitio web como textos visibles.
+
+• ¿Qué ocurre en la página cada vez que repites la acción?
+- Cada vez que se hace click en el botón, se crea un nuevo párrafo con el texto del textarea y se añade al div 'mensajes', acumulando los mensajes.
